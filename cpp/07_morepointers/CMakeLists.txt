@@ -1,0 +1,5 @@
+add_executable(allocating_arrays allocating_arrays.cpp)
+
+add_executable(array_of_characters array_of_characters.cpp)
+
+add_executable(smart_pointers smart_pointers.cpp)
