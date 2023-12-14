@@ -11,3 +11,5 @@ add_subdirectory(05_functions)
 add_subdirectory(06_pointers)
 
 add_subdirectory(07_morepointers)
+
+add_subdirectory(12_single_inher)

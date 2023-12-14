@@ -1,0 +1,12 @@
+To compile:
+
+1. Go to the build directory (create if it hasn't been created already)
+
+2. Type cmake ../
+
+3. Make the executable for the desired code file, e.g.:
+make hello_world
+make member_access
+The executable can be found inside the corresponding subdirectory of each code file, e.g. inside 03_fundamentals for hello_world.
+
+4. make clean removes all the executables in all the subdirectories of the build directory.
