@@ -6,20 +6,15 @@ using namespace std;
 int main(){
   size_t size;
   
-  short int a = 5; // 101
-  size = sizeof(a);
-  cout << "size of a: " << size << endl;
+  int a = 5; // 101
+  int b = 7; // 111
+  int c = 0; // 000
   
-  short int b = 7; // 111
-  int c = 0;
+  c = a & b; // 101
+  cout << "a & b: " << c << endl;
   
-  c = a & b;
-  size = sizeof(a);
-  cout << "size of a: " << size << endl;
-  cout << "c: " << c << endl;
+  c = a | b; // 111
+  cout << "a | b: " << c << endl;
   
-  char test = 72;
-  cout << "test: " << test << endl;
-
   return EXIT_SUCCESS;
 }

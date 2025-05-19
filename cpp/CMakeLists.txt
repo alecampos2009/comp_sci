@@ -12,4 +12,6 @@ add_subdirectory(06_pointers)
 
 add_subdirectory(07_morepointers)
 
+add_subdirectory(11_bitopers)
+
 add_subdirectory(12_single_inher)
