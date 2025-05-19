@@ -9,7 +9,7 @@ Overloading:
 
 This is the definition of multiple functions with the same name but with 
 different signatures, i.e. changing number or datatype of input parameters 
-(return type doesn't play anyrole). This feature is independent of inheritance.
+(return type doesn't matter). This feature is independent of inheritance.
 
 When defining a derived-class function with the same name as a base-class 
 function, overloading will not work, whether the signatures of the base and 
